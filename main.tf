@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 data "aws_ami" "ubuntu" {
-  most_recent = true
+  most_recent = false
 
   filter {
     name   = "name"
